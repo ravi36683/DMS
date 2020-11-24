@@ -1,0 +1,13 @@
+  
+version: "3.7"
+
+services:
+    mongo:
+        image: "mongo:4.0"
+        ports:
+            - "27017:27017"
+        environment:
+            - MONGO_INITDB_ROOT_USERNAME=dms_db
+            - MONGO_INITDB_ROOT_PASSWORD=dms_121
+        volumes:
+            - "./mongo/docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d"

@@ -1,0 +1,161 @@
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-wrap: wrap;
+}
+
+.login-section {
+    max-width: 550px;
+    width: 100%;
+}
+
+.login-logo {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.login-logo img {
+    max-width: 70px;
+}
+
+.login-form {
+    background: #fff;
+    padding: 50px;
+    max-width: 600px;
+    margin: 0px auto;
+    border: 1px solid #eaeaea;
+    padding-bottom: 30px;
+}
+
+.login-form h1 {
+    font-size: 22px;
+    margin: 0;
+    padding-bottom: 15px;
+}
+
+.login-form p {
+    color: #999;
+    margin: 0;
+    padding-bottom: 24px;
+    font-size: 14px;
+}
+
+.login-box label {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #999;
+}
+
+.login-box input {
+    border: 1.5px solid #eaeaea!important;
+    border-radius: 0;
+    padding: 8px 15px!important;
+    height: auto;
+}
+
+
+.q-links {
+    max-width: 600px;
+    margin: 0px auto;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.ant-btn.login-btn {
+    width: 100%;
+    border-radius: 0;
+    padding: 8px 10px;
+    background: #fab52c;
+    border-color: #fab52c;
+    height: auto;
+    color: #fff;
+}
+
+.ant-btn.login-btn:hover, .ant-btn.login-btn:focus {
+    background: #eaa51d;
+    border-color: #eaa51d;
+    outline: none;
+    box-shadow: none;
+    color: #fff;
+}
+
+
+
+.google-login {
+    text-align: center;
+}
+
+.ant-btn.google-btn {
+    width: 100%;
+    border-radius: 0;
+    padding: 8px 10px;
+    background: transparent;
+    border: 1.5px solid #eaeaea;
+    color: #999;
+    height: auto;
+}
+
+.ant-btn.google-btn:hover, .ant-btn.google-btn:focus {
+    background: transparent;
+    border: 1.5px solid #e2e2e2;
+    outline: none;
+    box-shadow: none;
+    color: #525252;
+}
+
+.q-links p {
+    color: #b3b3b3;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.ant-btn.google-btn span{
+    position: relative;
+}
+
+.ant-btn.google-btn span:before{
+    content: "";
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    vertical-align: bottom;
+    margin-right: 10px;
+}
+
+.ant-btn.google-btn:hover span:before{
+    content: "";
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    vertical-align: bottom;
+    margin-right: 10px;
+}
+
+.ant-input-suffix {
+    margin-left: 4px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.ant-form .ant-input-affix-wrapper {
+    padding: 0;
+    border: none;
+}
+
+.ant-row.ant-form-item {
+    flex-flow: column;
+}
+.ant-form-item-label > label {
+    color: #999!important;
+}
+
+.ant-form-horizontal .ant-form-item-label {
+    text-align: left;
+}

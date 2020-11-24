@@ -1,0 +1,13 @@
+.folder-item {
+    text-align: center;
+    margin-left: 5px;
+    margin-top: 5px;
+    padding: 10px 0px;
+    background-color: #33323233;
+}
+.item-container {
+    margin-top: 20px;
+}
+.file-container {
+    margin-top: 50px;
+}
